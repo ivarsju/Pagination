@@ -1,9 +1,7 @@
 <?php namespace Landish\Pagination;
 
 use Illuminate\Contracts\Pagination\Paginator as PaginatorContract;
-use Illuminate\Contracts\Pagination\Presenter as PresenterContract;
 use Illuminate\Pagination\UrlWindow;
-use Illuminate\Pagination\UrlWindowPresenterTrait;
 
 class Pagination extends PaginationHTML implements PresenterContract {
 
