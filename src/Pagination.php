@@ -3,7 +3,7 @@
 use Illuminate\Contracts\Pagination\Paginator as PaginatorContract;
 use Illuminate\Pagination\UrlWindow;
 
-class Pagination extends PaginationHTML implements PresenterContract {
+class Pagination extends PaginationHTML {
 
     use UrlWindowPresenterTrait;
 
